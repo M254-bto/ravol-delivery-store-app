@@ -1,3 +1,4 @@
+// @dart=2.9
 class CategoryModel {
   int _id;
   String _name;

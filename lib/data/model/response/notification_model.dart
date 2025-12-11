@@ -1,3 +1,4 @@
+// @dart=2.9
 class NotificationModel {
   int id;
   String title;

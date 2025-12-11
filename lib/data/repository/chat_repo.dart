@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:get/get_connect/http/src/response/response.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';

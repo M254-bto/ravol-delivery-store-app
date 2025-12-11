@@ -1,3 +1,4 @@
+// @dart=2.9
 class ResponseModel {
   bool _isSuccess;
   String _message;

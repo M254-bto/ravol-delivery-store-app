@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:flutter/material.dart';
 import 'package:ravol_store/util/dimensions.dart';
 import 'package:ravol_store/view/base/custom_image.dart';

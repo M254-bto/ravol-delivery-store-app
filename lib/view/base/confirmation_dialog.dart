@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:ravol_store/controller/auth_controller.dart';
 import 'package:ravol_store/controller/campaign_controller.dart';
 import 'package:ravol_store/controller/delivery_man_controller.dart';

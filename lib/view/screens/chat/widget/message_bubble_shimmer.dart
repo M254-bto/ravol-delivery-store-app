@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';

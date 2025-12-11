@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:ravol_store/controller/splash_controller.dart';
 import 'package:ravol_store/data/model/response/order_details_model.dart';
 import 'package:ravol_store/data/model/response/order_model.dart';

@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:ravol_store/controller/auth_controller.dart';
 import 'package:ravol_store/controller/store_controller.dart';
 import 'package:ravol_store/data/api/api_client.dart';

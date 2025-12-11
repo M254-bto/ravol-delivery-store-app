@@ -1,3 +1,4 @@
+// @dart=2.9
 class ProfileModel {
   int id;
   String fName;

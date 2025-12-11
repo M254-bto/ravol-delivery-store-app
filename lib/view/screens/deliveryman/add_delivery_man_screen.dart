@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:country_code_picker/country_code.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:ravol_store/controller/auth_controller.dart';

@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'dart:async';
 import 'package:image_picker/image_picker.dart';
 import 'package:ravol_store/data/api/api_client.dart';

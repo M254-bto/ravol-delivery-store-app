@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'dart:io';
 import 'package:ravol_store/controller/auth_controller.dart';
 import 'package:ravol_store/controller/splash_controller.dart';

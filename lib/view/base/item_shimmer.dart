@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:ravol_store/util/dimensions.dart';
 import 'package:ravol_store/view/base/rating_bar.dart';
 import 'package:flutter/material.dart';

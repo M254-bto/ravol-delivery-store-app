@@ -1,3 +1,4 @@
+// @dart=2.9
 /// errors : [{"code":"l_name","message":"The last name field is required."},{"code":"password","message":"The password field is required."}]
 
 class ErrorResponse {

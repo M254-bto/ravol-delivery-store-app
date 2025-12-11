@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:ravol_store/data/api/api_checker.dart';
 import 'package:ravol_store/data/model/response/campaign_model.dart';
 import 'package:ravol_store/data/repository/campaign_repo.dart';

@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:ravol_store/controller/bank_controller.dart';
 import 'package:ravol_store/data/model/body/bank_info_body.dart';
 import 'package:ravol_store/util/dimensions.dart';

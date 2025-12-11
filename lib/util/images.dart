@@ -1,3 +1,4 @@
+// @dart=2.9
 class Images {
   static const String logo = 'assets/image/logo.png';
   static const String arabic = 'assets/image/arabic.png';

@@ -7,9 +7,9 @@ on:
     branches: [ main ]
 
 env:
-  FLUTTER_VERSION: "2.10.5"
-  ANDROID_COMPILE_SDK: "31"
-  ANDROID_BUILD_TOOLS: "31.0.0"
+  FLUTTER_VERSION: "2.2.3"
+  ANDROID_COMPILE_SDK: "30"
+  ANDROID_BUILD_TOOLS: "30.0.3"
 
 jobs:
   # Code analysis and formatting check
@@ -31,11 +31,11 @@ jobs:
 
       - name: Verify formatting
         run: dart format --output=none --set-exit-if-changed .
-        continue-on-error: true  # Old code may not follow new formatting
+        continue-on-error: true
 
       - name: Analyze project source
         run: flutter analyze
-        continue-on-error: true  # Old code may have warnings
+        continue-on-error: true
 
   # Build Android APK
   build-android:
@@ -96,7 +96,7 @@ jobs:
 
       - name: Run unit tests
         run: flutter test --coverage
-        continue-on-error: true  # Don't fail if no tests exist
+        continue-on-error: true
 
       - name: Upload test results
         uses: actions/upload-artifact@v3

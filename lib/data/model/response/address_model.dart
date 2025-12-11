@@ -1,3 +1,4 @@
+// @dart=2.9
 
 
 import 'package:ravol_store/data/model/response/zone_response_model.dart';

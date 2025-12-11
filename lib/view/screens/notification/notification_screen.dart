@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:ravol_store/controller/notification_controller.dart';
 import 'package:ravol_store/controller/splash_controller.dart';
 import 'package:ravol_store/helper/date_converter.dart';

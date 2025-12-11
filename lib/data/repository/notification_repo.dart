@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:ravol_store/data/api/api_client.dart';
 import 'package:ravol_store/util/app_constants.dart';
 import 'package:flutter/foundation.dart';

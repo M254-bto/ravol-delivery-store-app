@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:ravol_store/util/dimensions.dart';
 import 'package:ravol_store/util/images.dart';
 import 'package:ravol_store/util/styles.dart';

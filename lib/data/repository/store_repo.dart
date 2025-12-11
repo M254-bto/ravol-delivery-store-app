@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'dart:convert';
 import 'package:image_compression_flutter/image_compression_flutter.dart';
 import 'package:ravol_store/controller/splash_controller.dart';

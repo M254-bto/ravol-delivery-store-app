@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'dart:async';
 
 import 'package:bluetooth_thermal_printer/bluetooth_thermal_printer.dart';

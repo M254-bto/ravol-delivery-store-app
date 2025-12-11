@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:collection/collection.dart' show IterableExtension;
 import 'package:country_code_picker/country_code.dart';
 import 'package:country_code_picker/country_codes.dart';

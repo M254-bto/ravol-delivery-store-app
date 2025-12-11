@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class ZoneModel {

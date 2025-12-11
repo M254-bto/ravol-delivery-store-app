@@ -1,3 +1,4 @@
+// @dart=2.9
 class ModuleModel {
   int id;
   String moduleName;
