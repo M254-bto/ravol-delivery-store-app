@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -37,7 +37,7 @@ dependencies:
   esc_pos_utils: ^1.0.0
   photo_view: ^0.13.0
   image_compression_flutter: ^1.0.2
-  win32: ^2.6.1
+  # win32: ^2.6.1  # REMOVED - not needed for mobile apps
   modal_bottom_sheet: ^2.0.1
   google_maps_flutter: ^2.1.1
   geolocator: ^8.2.1
