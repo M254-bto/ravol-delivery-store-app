@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 env:
-  FLUTTER_VERSION: "2.8.1"  # Updated from 2.0.6 to support dependencies
+  FLUTTER_VERSION: "2.5.3"  # Updated from 2.0.6 to support dependencies
   ANDROID_COMPILE_SDK: "30"
   ANDROID_BUILD_TOOLS: "30.0.3"
   
