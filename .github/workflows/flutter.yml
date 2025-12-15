@@ -44,7 +44,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
 
       - name: Upload APK artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: apk-${{ github.ref_name }}
           path: build/app/outputs/flutter-apk/*.apk
