@@ -7,9 +7,9 @@ on:
     branches: [ main ]
 
 env:
-  FLUTTER_VERSION: "2.5.3"  # Updated from 2.0.6 to support dependencies
-  ANDROID_COMPILE_SDK: "30"
-  ANDROID_BUILD_TOOLS: "30.0.3"
+  FLUTTER_VERSION: "3.10.0"  # Updated to support Dart 3.x and null safety
+  ANDROID_COMPILE_SDK: "33"
+  ANDROID_BUILD_TOOLS: "33.0.0"
   
 jobs:
   # Build Android APK
@@ -40,6 +40,9 @@ jobs:
         run: |
           flutter analyze
           dart analyze
+
+      - name: Clean build
+        run: flutter clean
 
       - name: Build debug APK
         run: flutter build apk --debug
