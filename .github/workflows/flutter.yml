@@ -35,6 +35,12 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
+      - name: Check null safety and analyze code
+        continue-on-error: true
+        run: |
+          flutter analyze
+          dart analyze
+
       - name: Build debug APK
         run: flutter build apk --debug
         if: github.ref != 'refs/heads/main'
